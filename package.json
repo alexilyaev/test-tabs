@@ -1,0 +1,23 @@
+{
+  "name": "test-tabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/alexilyaev/test-tabs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/alexilyaev/test-tabs/issues"
+  },
+  "homepage": "https://bitbucket.org/alexilyaev/test-tabs#readme",
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
