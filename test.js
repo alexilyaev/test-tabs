@@ -1,9 +1,11 @@
 function handleError(err) {
 	let errMsg = err;
 
+
 	if (err instanceof Object) {
 		errMsg = err.message || err.error || JSON.stringify(err);
 	}
+
 
 	printColumns(chalk.red("Error: " + errMsg));
 	printColumns(
