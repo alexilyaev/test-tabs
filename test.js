@@ -8,7 +8,7 @@ function handleError(err) {
 	printColumns(chalk.red("Error: " + errMsg));
 	printColumns(
 		chalk.white(
-			`If you can't settle this, please open an issue at:${EOL}` +
+			`If you can't settle this, please open an issue 123 at:${EOL}` +
 				chalk.cyan(pkg.bugs.url)
 		)
 	);
