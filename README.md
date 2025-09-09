@@ -1,5 +1,7 @@
 # Test Tabs
 
+This is a simple repo to test how tab characters are rendered on GitHub and other places.
+
 ```js
 function handleError(err) {
 	let errMsg = err;
